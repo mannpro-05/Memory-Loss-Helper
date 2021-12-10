@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.memorylossguardian">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MemoryLossGuardian">
+
+        <activity
+            android:name=".FingerPrintScanner"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".auth.Login"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoTitleBar" />
+        <activity
+            android:name=".usersetup.UserSetup"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".auth.ResetPassword"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".auth.Register"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoTitleBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Loading"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

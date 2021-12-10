@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+    app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+    app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/personalQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_question"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorTextPrimary"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout"
+        style="@style/DropDown"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/personal_question"
+        app:boxStrokeColor="@color/colorTextPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/manualPersonalQuestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personalQuestion">
+
+        <AutoCompleteTextView
+            android:id="@+id/personalQuestionList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/manualPersonalQuestion"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="@string/personal_question"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="@color/colorTextPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/answer"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/answer"
+        android:inputType="textPersonName"
+        app:boxStrokeColor="@color/colorTextPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manualPersonalQuestion">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:backgroundTint="@color/colorTextPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

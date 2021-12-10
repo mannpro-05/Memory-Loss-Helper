@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/button_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/card_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/edit_text_background.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/ic_email.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable-v24/ic_profile.xml" value="0.3828125" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable/ic_edit.xml" value="0.3828125" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/drawable/ic_logout.xml" value="0.3828125" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_finger_print_scanner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_loading.xml" value="0.33" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_reset_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_user_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/activity_user_setup.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_add_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_display_patient_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_edit_guardian.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_guardian_details.xml" value="0.5" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/patien_ltist_card_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/layout/patient_list_card_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mannp/AndroidStudioProjects/MemoryLossGuardian2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

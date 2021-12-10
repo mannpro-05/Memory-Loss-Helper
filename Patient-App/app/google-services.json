@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819381654730",
+    "project_id": "memory-loss-app",
+    "storage_bucket": "memory-loss-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819381654730:android:bcd5d4fa35f3f54a429033",
+        "android_client_info": {
+          "package_name": "com.example.memory_loss_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819381654730-paatjevkdlsndhqq16rqeaaquo9oj7qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1TDZWgSxz-q47f5EniBTVYRcoobKicDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819381654730-paatjevkdlsndhqq16rqeaaquo9oj7qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

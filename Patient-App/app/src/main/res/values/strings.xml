@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Memory-Loss-App</string>
+    <string name="patient_details">Patient Details</string>
+    <string name="doctor_name"><b>Doctor Name</b></string>
+    <string name="doctor_contact_number"><b>Doctor contact number</b></string>
+    <string name="diagnosed_on"><b>Diagnosed On</b></string>
+    <string name="last_appointment_date"><b>Last Appointment Date</b></string>
+    <string name="frequency_of_memory_loss"><b>Frequency Of Memory Loss</b></string>
+    <string name="next">next</string>
+    <string name="user_details">User Details</string>
+    <string name="date_of_birth"><b>Date of Birth</b></string>
+    <string name="age"><b>Age</b></string>
+    <string name="blood_group"><b>Blood Group</b></string>
+    <string name="address"><b>Address</b></string>
+    <string name="personal_question">Personal Question</string>
+    <string name="answer">Answer</string>
+    <string name="memory_loss_application">Memory Loss Application</string>
+    <string name="add_contacts">Add Contacts</string>
+    <string name="primary_contact">Primary Contact</string>
+    <string name="secondary_contacts">Secondary Contacts</string>
+    <string name="title_activity_user_page">UserPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="login_to_get_started">Get Started</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="dont_have_an_account">Don\'t have an account</string>
+    <string name="register_now">Register Now</string>
+    <string name="new_user">New User</string>
+    <string name="register_to_get_started">Register to get started</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_a_user">Already a user</string>
+    <string name="change_primary_contact">Change Primary Contact</string>
+    <string name="schedule_time_of_notification"><b>Schedule time of notification</b></string>
+
+    <string-array name="personalQuestions">
+        <item>What is your Mothers Maiden Name?</item>
+        <item>When was your birthday?</item>
+        <item>How many cousins do you have?</item>
+        <item>Do you have a pet?</item>
+        <item>Do you have any siblings?</item>
+        <item>What is your preferred name?</item>
+        <item>Where did you grow up?</item>
+        <item>In what city were you born?</item>
+        <item>What is the name of your favorite pet?</item>
+        <item>What high school did you attend?</item>
+        <item>What is the name of your first school?</item>
+        <item>What was the make of your first car?</item>
+        <item>What was your favorite food as a child?</item>
+        <item>Where did you meet your spouse?</item>
+        <item>Choose a personal question of your own?</item>
+    </string-array>
+    <string-array name="bloodGroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
